@@ -1,8 +1,9 @@
 { pkgs, lib, config, inputs, ... }:
 
 {
-  packages = [
-    pkgs.uv
+  packages = with pkgs; [
+    uv
+    nodejs_22
   ];
   languages.python = {
     enable = true;
