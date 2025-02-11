@@ -1,7 +1,4 @@
-"""Get unique species observed at a location within the last 30 days.
-
-d1: Must be observed on or after this date
-"""
+"""Get unique species observed at a location within the last 30 days."""
 
 import requests
 import datetime
